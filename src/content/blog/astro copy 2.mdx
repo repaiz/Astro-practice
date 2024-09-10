@@ -1,11 +1,10 @@
 ---
-title: 'MacBook Pro 2022'
+title: 'Astro Practice'
 description: >-
-  The new MacBook Pro 2022 is here. With the Apple M2 chip, a new design, and
-  more, the new MacBook Pro is the best laptop Apple has ever made.
-pubDate: 2022-07-01T22:00:00.000Z
+  初めてAstroでサイトを作成してデプロイするまで
+pubDate: 2024-09-12T22:00:00.000Z
 heroImage: ../../assets/images/bg.jpg
-category: Category 1
+category: テックブログ
 tags:
   - JavaScript
   - css
@@ -13,15 +12,14 @@ tags:
   - GitHub
 ---
 
-# Title
+# 初めてAstroでサイトを作成
 
-**If you know HTML, you already know enough to write your first Astro component.**
+**最短15分程度で作成からデプロイまで.**
 
-Astro component syntax is a superset of HTML. The syntax was [designed to feel familiar to anyone with experience writing HTML or JSX](#differences-between-astro-and-jsx), and adds support for including components and JavaScript expressions.
+Astroでテンプレートを利用することでゼロからサイトを作成し、デプロイを行います。  
+以下、概要と作成手順について記述します。
 
-## JSX-like Expressions
-
-You can define local JavaScript variables inside of the frontmatter component script between the two code fences (`---`) of an Astro component. You can then inject these variables into the component's HTML template using JSX-like expressions!
+## Astroとは
 
 note\[dynamic vs reactive]
 Using this approach, you can include **dynamic** values that are calculated in the frontmatter. But once included, these values are not **reactive** and will never change. Astro components are templates that only run once, during the rendering step.

@@ -33,9 +33,12 @@
 		"prepare": "husky install"
 	},
 	"dependencies": {
+		"-": "^0.0.1",
 		"@astrojs/rss": "4.0.1",
 		"astro": "4.0.8",
-		"astro-font": "^0.0.72"
+		"astro-font": "^0.0.72",
+		"d": "^1.0.2",
+		"wrangler": "^3.75.0"
 	},
 	"devDependencies": {
 		"@astrojs/mdx": "2.0.3",
